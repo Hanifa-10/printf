@@ -4,6 +4,7 @@
 #include <stdarg.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <math.h>
 #include <unistd.h>
 /**
 * struct fmt - function to check for formats
@@ -29,8 +30,7 @@ int print_oct(va_list args);
 int print_hex(va_list args);
 int print_Hex(va_list args);
 int _pow(int x, int y);
-int sqrt(int n);
 int rot13(va_list args);
-
+double sqrt(double n);
 
 #endif

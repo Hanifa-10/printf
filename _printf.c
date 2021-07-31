@@ -6,7 +6,7 @@
 * Return: char to be printed
 */
 
-int (*get_fmt_func(cons char s))(va_list)
+int (*get_fmt_func(const char s))(va_list)
 {
 int i = 0;
 fmt format[] = {
@@ -34,8 +34,7 @@ i++;
 }
 return (0);
 }
-return (0);
-}
+
 
 /**
  * _printf - produces output according to format
@@ -52,7 +51,7 @@ int (*ptr)(va_list);
 c = 0;
 i = 0;
 
-if (format = NULL)
+if (format == NULL)
 return (-1);
 
 va_start(args, format);
@@ -76,7 +75,7 @@ else
 c += _putchar(format[i]);
 
 i++;
-}
+
 va_end(args);
 return (c);
 }
