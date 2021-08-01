@@ -7,6 +7,6 @@
 */
 int print_per(__attribute__((unused)) va_list args)
 {
-return (_Putchar(37));
+return (_putchar(37));
 }
 

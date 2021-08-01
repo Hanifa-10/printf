@@ -11,13 +11,13 @@ int i;
 char *str;
 str = va_arg(args, char *);
 
-if (str == null)
+if (str == NULL)
 str = "(nil)";
 
 i = 0;
 
 while (str[i] != 0)
 i += _putchar(str[i]);
-return [i];
+return (i);
 }
 
