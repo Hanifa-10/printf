@@ -14,7 +14,7 @@ fmt format[] = {
 {"s", print_str},
 {"%", print_per},
 {"d", print_int},
-{"i", print_Int},
+{"i", print_int},
 {"b", print_bin},
 {"u", print_unsigned},
 {"o", print_oct},
