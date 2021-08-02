@@ -23,6 +23,7 @@ int print_char(va_list args);
 int print_str(va_list args);
 int print_per(va_list args);
 int print_int(va_list args);
+int print_Int(va_list args);
 int print_bin(va_list args);
 int print_unsigned(va_list args);
 char *convert(long int num, int base);
